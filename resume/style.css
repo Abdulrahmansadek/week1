@@ -1,0 +1,80 @@
+
+
+
+
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+}
+.maincont{
+    border: 1px solid black;
+    height: 900px;
+    width:1000px;
+    display: flex;
+margin: 100px 50px;
+background-color: grey;
+}
+
+.left{
+    background-color:rgba(4, 2, 41, 0.521);
+    text-align: center;
+    padding: 30px;
+    width: 30%;
+    
+    
+
+    
+
+}
+.left ul li a{
+    text-decoration: none;
+    color: black;
+}
+.left a:hover{
+    color: white;
+    cursor: pointer;
+}
+.pic{
+    border: 2px inherit solid;
+    height: 200px;
+    border-radius: 100%;
+    width: 200px;
+    margin-left: 50px;
+    background-image: url(mypic.jpg);
+    background-size: cover;
+    background-position:top;
+}
+ .left h3{
+    border:1px black solid;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px;
+    background-color: grey;
+    
+
+
+    
+   
+}
+.left ul li {
+    list-style: none;
+    text-decoration: none;
+    line-height: 2;
+}
+.right{
+    padding:50px;
+    
+    
+}
+
+.right h3{
+    border: none;
+}
+.education{
+    padding: 50px 0;
+}
